@@ -81,8 +81,12 @@ My final model consisted of the following layers:
 | Max pooling	      	| 2x2 stride,  outputs 5x5x6 				|
 | Flattening      		| Flattens data to 400 features 				|
 | Fully connected		| xW + b, outputs 120    									|
-| Fully connected		| xW + b, outputs 120    									|
-| RELU			      	| 				
+| RELU		|     									|
+| Dropout		| 50% keep probability    									|
+| Fully connected		| xW + b, outputs 43    									|
+| RELU		|     									|
+| Dropout		| 50% keep probability    									|
+| Softmax			      	| xW + b, outputs probabilities for each class				
 |
 | Dropout				| 50% keep probability 
 |
