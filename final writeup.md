@@ -1,4 +1,4 @@
-#**Traffic Sign Recognition** 
+# **Traffic Sign Recognition** 
 
 ## Writeup Template
 
@@ -80,6 +80,7 @@ My final model consisted of the following layers:
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 5x5x6 				|
 | Flattening      		| Flattens data to 400 features 				|
+| Fully connected		| xW + b, outputs 120    									|
 | Fully connected		| xW + b, outputs 120    									|
 | RELU			      	| 				
 |
