@@ -55,7 +55,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed across each of the 43 classifications. There classes are highly unbalanced in some cases.
 
-![Traffic Sign Distribution][./traffic_sign_distribution.jpg]
+![Traffic Sign Distribution](./traffic_sign_distribution.jpg)
 
 ###Design and Test a Model Architecture
 
@@ -87,9 +87,9 @@ My final model consisted of the following layers:
 |
 | Fully connected		| xW + b, outputs 43    									|
 | RELU			      	| 				
-|
+					|
 | Dropout				| 50% keep probability 
-|
+					|
 | Softmax				| xW + b, outputs probabilities for each class      									|
 |						|												|
 
@@ -136,8 +136,8 @@ I think the dropout layers were important to differentiate signs like 30 km/h vs
 
 Here are five German traffic signs that I found on the web:
 
-![Speed limit (80km/h)][./five_test_images/eighty-mph-5.jpg] ![No Vehicles][./five_test_images/no-vehicles-15.jpg] ![Priority Road][./five_test_images/priority-road-12.jpg] 
-![Stop][./five_test_images/stop-14.jpg] ![Yield][./five_test_images/yield-13.jpg]
+![Speed limit (80km/h)](./five_test_images/eighty-mph-5.jpg) ![No Vehicles](./five_test_images/no-vehicles-15.jpg) ![Priority Road](./five_test_images/priority-road-12.jpg) 
+![Stop](./five_test_images/stop-14.jpg) ![Yield](./five_test_images/yield-13.jpg)
 
 The first image might be difficult to classify because ...
 
