@@ -132,6 +132,11 @@ Here are five German traffic signs that I found on the web:
 ![Speed limit (80km/h)](./five-test-images/eighty-mph-5.jpg) ![No Vehicles](./five-test-images/no-vehicles-15.jpg) ![Priority Road](./five-test-images/priority-road-12.jpg) 
 ![Stop](./five-test-images/stop-14.jpg) ![Yield](./five-test-images/yield-13.jpg)
 
+* First image: This may be difficult because I can see the model confusing either 30 or 60 km/h signs for 80 km/h. They all have very similar features. Also, as the model clearly shows, End of 80 km/h signs look very similar. 
+* Second image: I didn’t think this would be particularly difficult for the model, but it might be confused with any of the speed limit signs with the same shape and border.
+* Third image: This one has the edges cut off and looks a bit strange in the middle due to the pixel intensity resampling that happened when I cropped and resized it. 
+* Fourth image: I hoped the stop sign would be easily classified because of its distinct shape and letters.
+* Fifth image: The yield sign was a bit bent at the top but was otherwise easily classified because of its unique shape.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
